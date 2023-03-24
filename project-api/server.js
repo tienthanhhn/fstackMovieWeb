@@ -10,7 +10,7 @@ app.use(express.json());
 
 mongoose.set('strictQuery', false);
 
-mongoose.connect("mongodb://localhost:27017/netflix",{
+mongoose.connect("mongodb://localhost:27017/home",{
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(()=>{
